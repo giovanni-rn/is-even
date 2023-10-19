@@ -1,0 +1,27 @@
+{
+  "name": "@oriano-dev/is-even",
+  "version": "1.0.1",
+  "author": "oriano-dev",
+  "description": "A lightweight library to test whether a number is odd or even. Supports various data types such as number, string as well as bigint.",
+  "keywords": [
+    "is-even",
+    "is even",
+    "even",
+    "odd",
+    "is odd",
+    "is-odd"
+  ],
+  "main": "dist/isEven.js",
+  "types": "dist/isEven.d.ts",
+  "repository": "https://github.com/oriano-dev/is-even",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.6",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
